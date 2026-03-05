@@ -1,0 +1,15 @@
+{
+  "name": "logistics-platform",
+  "version": "1.0.0",
+  "description": "A modern logistics and shipment tracking website",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces"
+  }
+}
